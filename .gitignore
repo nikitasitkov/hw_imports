@@ -1,3 +1,8 @@
-# IDE / local settings
+cat > .gitignore << 'EOF'
 .idea/
 .gigaide/
+__pycache__/
+*.pyc
+.venv/
+.env
+EOF
